@@ -5,7 +5,6 @@ class ApplicationController < ActionController::Base
 
   # define helper methods which will be used by authentication_controller
   attr_reader :current_user
-
   
   protected
   def authenticate_request!
